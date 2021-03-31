@@ -1,0 +1,9 @@
+name: gd_landlab_demos
+ channels:
+   - conda-forge
+ dependencies:
+ - python
+ - numpy
+ - pandas
+ - landlab>=2.0.1
+ - terrainbento
