@@ -1,7 +1,7 @@
 name: gd_landlab_demos
- channels:
-   - conda-forge
- dependencies:
+channels:
+ - conda-forge
+dependencies:
  - python
  - numpy
  - pandas
