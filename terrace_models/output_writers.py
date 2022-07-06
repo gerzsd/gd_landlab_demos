@@ -84,7 +84,7 @@ def surface_output_writer_png(model):
 #    plt.show()
     fname = "hillslope_2_" + T_str + ".png"
     plt.savefig(fname)
-    
+
 def plot_all(model):
     pkeys = model.grid.at_node.keys()
     for i in pkeys:
